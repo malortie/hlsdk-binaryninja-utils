@@ -9,6 +9,10 @@ Utilities to aid decompiling Half-Life 1 mods using Binary Ninja.
 - Binary Ninja 5.1.8005-Stable
 - Half-Life 1 SDK
 
+## How to use
+
+See the [videos](https://www.youtube.com/playlist?list=PLwssFKPJJ63rerC9GyzfSEOuNQQov-nxh).
+
 ## Contributing
 
 See [contribution guidelines](CONTRIBUTING.md).
