@@ -1514,7 +1514,7 @@ struct __data_var_refs vtable_for_CBaseEntity
   void	(* Activate)( CBaseEntity* p ) ;
   void	(* SetObjectCollisionBox)( CBaseEntity* p );
   int (* Classify)( CBaseEntity* p ) ;
-  void DeathNotice ( entvars_t *pevChild ) ;
+  void (* DeathNotice)( CBaseEntity* p, entvars_t *pevChild ) ;
   void	(* TraceAttack)( CBaseEntity* p, entvars_t *pevAttacker, float flDamage, Vector vecDir, TraceResult *ptr, int bitsDamageType);
   int		(* TakeDamage)( CBaseEntity* p, entvars_t* pevInflictor, entvars_t* pevAttacker, float flDamage, int bitsDamageType );
   int		(* TakeHealth)( CBaseEntity* p, float flHealth, int bitsDamageType );
